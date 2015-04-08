@@ -3,7 +3,7 @@
 	$profissionais = array(
 		1 => array(
 			'name' => 'Giovana Grison',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/giovana-grison-medium.jpg',
 			'crp' => 'CRP/RS:  07/22774',
 			'formacao' => 'Licenciatura Plena em Educação Artística (2007) e Bacharel em Psicologia (2013)',
 			'especializacao' => 'Especialização em Arteterapia (2009); Especialização em Inclusão Educacional (2012)',
@@ -12,7 +12,7 @@
 		),
 		2 => array(
 			'name' => 'Adriana Benenot',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/adriana-benenot-medium.jpg',
 			'crp' => '',
 			'formacao' => 'Secretário Executivo (Ucs)',
 			'especializacao' => 'Certificada pela  Associação Brasileira de Coaching – ABRACOACHING e BCI – Behavioral Coaching Institute; Pós-graduada em Psicologia Organizacional (2012/FSG); Certificada líder pelo International Self-Esteem Project. Certificada em Biopsicologia pelo Instituto Visão Futuro.',
@@ -30,7 +30,7 @@
 		),
 		4 => array(
 			'name' => 'Daniel Araújo dos Santos',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/daniel-araujo-dos-santos-medium.jpg',
 			'crp' => 'CRP/RS: 07/21145',
 			'formacao' => 'Técnico em Enfermagem e Bacharel em Psicologia (2012)',
 			'especializacao' => 'Aperfeiçoamento em Atenção Integral a Pessoas em Situação de Rua',
@@ -48,7 +48,7 @@
 		),
 		6 => array(
 			'name' => 'Deisi Moraes',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/deisi-moraes-medium.jpg',
 			'crp' => 'CRP/RS: 07/23566',
 			'formacao' => 'Graduação em Psicologia concluída em agosto de 2014, pela Universidade de Caxias do Sul.',
 			'especializacao' => '',
@@ -57,7 +57,7 @@
 		),
 		7 => array(
 			'name' => 'Kátia dos Santos',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/katia-dos-santos-medium.jpg',
 			'crp' => 'CRP/RS: 07/18162',
 			'formacao' => 'Bacharelado em Psicologia (UCS - 2009)',
 			'especializacao' => 'Dinâmica de Grupos (SBDG – 2012)',
@@ -66,7 +66,7 @@
 		),
 		8 => array(
 			'name' => 'Karen Rech Braun',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/karen-rech-braun-medium.jpg',
 			'crp' => 'CRP/RS:07/23461',
 			'formacao' => 'Bacharel em Psicologia (2014)',
 			'especializacao' => 'Conhecimento em Língua Brasileira de Sinais (LIBRAS).',
@@ -75,7 +75,7 @@
 		),
 		9 => array(
 			'name' => 'Lídia Neumann Potrich',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/lidia-neumann-potrich-medium.jpg',
 			'crp' => 'CRP/RS:  07/22322',
 			'formacao' => 'Bacharel em Psicologia (UCS – 2013)',
 			'especializacao' => 'Psicologia e Gestão nos contextos Organizacionais; Formação em Coaching (Internacional Professional Coach) – Academia Brasileira de Coaching (ABRACOACHING) – certificada pelo Behavioral Coaching Institute (BCI) – 2013; Líder Coach – FG Desenvolvimento – em andamento',
@@ -84,7 +84,7 @@
 		),
 		10 => array(
 			'name' => 'Paula Scortegagna Balen',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/paula-scortegagna-balen-medium.jpg',
 			'crp' => 'CRP/RS:07/12471',
 			'formacao' => 'Possui graduação em Psicologia pela Universidade de Caxias do Sul (2003)',
 			'especializacao' => 'Cursando Especialização em Terapia Cognitivo-comportamental na Infância e Adolescência na INFAPA (Instituto da Família)',
@@ -93,7 +93,7 @@
 		),
 		11 => array(
 			'name' => 'Valquíria Casagrande',
-			'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+			'image' => IMAGE_URL . 'profissionais/valquiria-casagrande-medium.jpg',
 			'crp' => 'CRP/RS: 07/20670',
 			'formacao' => 'Bacharel em Psicologia pela Universidade de Caxias do Sul (2012)',
 			'especializacao' => 'MBA em Gestão Estratégica de Pessoas e Certificação Leader Coach  Extreme',
@@ -111,13 +111,15 @@
 		<div class="post-item">
 			<h1>Nossos Profissionais</h1>
 			<div class="entry">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+
+				<p>A Equipe que integra  nosso espaço possui diferentes formações e áreas de atuações. Dentro de suas especializações, procuram atender seus pacientes, desenvolvendo teorias e técinas conforme a demanda que se apresenta.</p>
+
+				<p>Conheça abaixo um pouco de cada um deles, sua formação, especializações e áreas de atuação:</p>
 
 				<?php foreach($profissionais as $profissional): ?>
 
 					<div class="divider_space_thin"></div>
-					<img src="<?php echo $profissional['image'];?>" alt="" width="115" height="152" class="alignright" />
+					<img src="<?php echo $profissional['image'];?>" alt="<?php echo $profissional['name']; ?>" width="200" height="300" class="alignright" />
 					<h3 class="title_pink2"><?php echo $profissional['name']; ?></h3>
 					<?php if (isset($profissional['crp'])): ?>
 						<p><strong><?php echo $profissional['crp']; ?></strong></p>
@@ -139,31 +141,7 @@
 
 				<div class="divider_space"></div>
 
-				<div class="row">
-					<div class="col col_1_2">
-						<!-- widget contacts -->
-						<div class="widget-container widget_contact">
-							<div class="inner">
-								<div class="contact-phone">
-									<label>telefone:</label>
-									<strong><?php echo PHONE; ?></strong>
-								</div>
-
-								<div class="contact-mail">
-									<label>e-mail:</label>
-									<a href="mailto:<?php echo EMAIL; ?>"><?php echo EMAIL; ?></a>
-								</div>
-							</div>
-						</div>
-						<!--/ widget contacts -->
-					</div>
-
-					<div class="col col_1_2">
-						<p><br /> ...ou envie uma mensagem pelo nosso agendamento:</p>
-						<p class="text-center"><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php" class="button_link btn_pink"><span>Agendamentos</span></a></p>
-					</div>
-
-				</div>
+				<?php require_once('includes/contato.php'); ?>
 
 			</div>
 		</div>

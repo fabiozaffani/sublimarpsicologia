@@ -2,8 +2,8 @@
 
 define('BASE_URL', '/');
 define('IMAGE_URL', BASE_URL . 'images/');
-define('PHONE', '(xx) abcd-efgh');
-define('EMAIL', 'teste@test.com.br');
+define('PHONE', '55 54 3039-0690');
+define('EMAIL', 'sublimar@sublimarpsicologia.com.br');
 
 require_once('includes/header.php');
 

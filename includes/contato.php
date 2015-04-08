@@ -20,6 +20,8 @@
     </div>
 
     <div class="col col_1_2">
-        <p><br /> ...or fill in the form on our Appointments page:</p>
-        <p class="text-center"><a href="#" class="button_link btn_pink"><span>FILL IN THE FORM</span></a></p>
+        <p><br /> ...ou envie uma mensagem pelo nosso agendamento:</p>
+        <p class="text-center"><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php" class="button_link btn_pink"><span>Agendamento</span></a></p>
     </div>
+
+</div>

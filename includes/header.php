@@ -31,7 +31,7 @@
 
             <div class="header_top">
                 <div class="container">
-                    <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo IMAGE_URL; ?>logo.png" width="210" height="80" alt="Medica" /></a></div>
+                    <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo IMAGE_URL; ?>logo.png" width="334" height="80" alt="Medica" /></a></div>
                     <div class="header_contacts">
                         <p>Telefone:  <span class="icon_phone"><?php echo PHONE; ?></span></p>
                         <p>Rua Borges de Medeiros, 553, Centro, Caxias do Sul <a href="<?php echo BASE_URL; ?>paginas/localizacao.php" class="icon_map">Ver endereço</a></p>
@@ -84,11 +84,11 @@
             </div>
 
             <!-- header image/slider -->
-            <div class="header_bot header_image">
+            <!-- <div class="header_bot header_image">
                 <div class="container">
                     <img src="<?php echo IMAGE_URL; ?>temp/header_image_2.jpg" width="960" height="142" alt="" />
                 </div>
-            </div>
+            </div> -->
             <!--/ header image/slider -->
 
         </div>

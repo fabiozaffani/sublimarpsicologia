@@ -6,12 +6,14 @@
         	<h1>Parceiros</h1>
             <div class="entry">
 
+				<p>Seja também um parceiro do nosso espaço. Contate um de nossos profissionais e desenvolva parcerias. </p>
+
 				<h3 class="title_blue2">Sal a Gosto</h3>
 				<a href="http://www.salagosto.com.br" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/sal-a-gosto.jpg" /></a>
 
 
 				<h3 class="title_blue2">Casa Nobre</h3>
-				<a href="www.casanobrenegociosimobiliarios.com.br" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/casa-nobre.jpg" /></a>
+				<a href="http://www.casanobrenegociosimobiliarios.com.br" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/casa-nobre.jpg" /></a>
 
 				<h3 class="title_blue2">Espaço Posturale</h3>
 				<a href="https://www.facebook.com/EspacoPosturale?ref=ts&fref=ts" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/espaco-posturale.jpg" /></a>

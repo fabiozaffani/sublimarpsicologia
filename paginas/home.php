@@ -21,8 +21,8 @@
                             </div>
                         </div>
                         <!--/ widget contacts -->
-                        <p>...or fill in the form on our Appointments page:</p>
-                        <a href="#" class="button_link btn_pink"><span>FILL IN THE FORM</span></a>
+                        <p>...ou envie uma mensagem pelo nosso agendamento:</p>
+                        <a href="<?php echo BASE_URL;?>paginas/agendamentos.php" class="button_link btn_pink"><span>Agendamentos</span></a>
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@
                             <img src="<?php echo IMAGE_URL; ?>temp/col_icon_2.png" alt="" width="87" height="87" border="0"/>
                             <h3>Conheça nossos Serviços</h3>
                         </div>
-                        <p>Our most important medical departments, but just a few of what our clinic offers: </p>
+                        <p>Conheça um pouco mais daquilo que o nosso Espaço oferece e veja se tem algo que se adequa aquilo que você procura.</p>
                         <div class="list_dots_blue">
                             <ul>
                                 <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php">Psicoterapia</a></li>
@@ -44,7 +44,7 @@
                                 <li><a href="<?php echo BASE_URL; ?>servicos/orientacao-vocacional.php">Orientação Vocacional</a></li>
                             </ul>
                         </div>
-                        <a href="#" class="button_link"><span>VER TODOS OS ERVIÇOS</span></a>
+                        <a href="<?php echo BASE_URL;?>paginas/servicos.php" class="button_link"><span>VER TODOS OS SERVIÇOS</span></a>
                     </div>
 
                 </div>
@@ -55,10 +55,9 @@
                             <img src="<?php echo IMAGE_URL; ?>temp/col_icon_3.png" alt="" width="87" height="87" border="0"/>
                             <h3>Conheça a Equipe</h3>
                         </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloreue laudantium, totam rem aperiam.</p>
-                        <p><img src="<?php echo IMAGE_URL; ?>temp/home_img_1.jpg" width="270" height="92" alt="" /></p>
-                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo, perspiciatis unde omnis.</p>
-                        <a href="#" class="button_link"><span>MORE ABOUT US</span></a>
+                        <p>Aqui você poderá saber um pouco da formação profissional e das especializações de cada um dos nossos profissionais.</p>
+                        <p><img src="<?php echo IMAGE_URL; ?>equipe.jpg" width="270" height="180" alt="" /></p>
+                        <a href="<?php echo BASE_URL; ?>paginas/quemsomos.php" class="button_link"><span>Mais sobre nós</span></a>
                     </div>
                 </div>
 

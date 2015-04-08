@@ -3,12 +3,12 @@
 $profissionais = array(
 	1 => array(
 		'name' => 'Giovana Grison',
-		'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+		'image' => IMAGE_URL . 'profissionais/giovana-grison-medium.jpg',
 		'experiencia' => 'Psicóloga Clínica (desde 2014) Professora de Arte da Rede de Ensino Municipal (desde 2012); Professora de Arteterapia na Prefeitura Municipal de Caxias do Sul (de 2010 à 2012).'
 	),
 	2 => array(
 		'name' => 'Adriana Benenot',
-		'image' => IMAGE_URL . 'temp/entry_doctor_2.jpg',
+		'image' => IMAGE_URL . 'profissionais/adriana-benenot-medium.jpg',
 		'experiencia' => 'Trabalhou na Randon S.A de 2003 a 2009 como secretaria da Diretoria, Assessora do Programa de mestrado e Doutorado em Administração na Universidade de Caxias do Sul,  Professora em Disciplinas de Humanas e Liderança na Escola São Pelegrino (2010) e Instrutora no Programa Jovem prendiz no Senac (2011). Atualmente é assessora na Sil Echer Projetos Esportivos Ltda e Coaching no Sublimar.'
 	)
 );
@@ -56,7 +56,7 @@ $profissionais = array(
 
 				<?php foreach($profissionais as $profissional): ?>
 
-					<img src="<?php echo $profissional['image'];?>" alt="" width="115" height="152" class="alignright" />
+					<img src="<?php echo $profissional['image'];?>" alt="<?php echo $profissional['name']; ?>" width="200" height="300" class="alignright" />
 					<h3 class="title_pink text_italic"><?php echo $profissional['name']; ?></h3>
 					<?php if (isset($profissional['experiencia'])): ?>
 						<p><?php echo $profissional['experiencia']; ?> </p>

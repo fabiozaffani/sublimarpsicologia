@@ -48,90 +48,43 @@ $(document).ready(function() {
 
             <div class="showcase-slide">
                 <div class="showcase-content">
-                    <a href="#link-1"><img src="<?php echo IMAGE_URL; ?>temp/slider_img_01.jpg" alt="02" /></a>
+                    <a href="#link-1"><img src="<?php echo IMAGE_URL; ?>slider/psicoterapia-crop.jpg" alt="02" /></a>
                 </div>
                 <div class="showcase-thumbnail">
                     <div class="showcase-thumbnail-content">
-                        <h3>Neonatal Care</h3>
-                        <p>Extracorporeal membrane oxygen</p>
+                        <h3>Psicoterapia</h3>
+                        <!-- <p>Extracorporeal membrane oxygen</p> -->
                     </div>
                 </div>
             </div>
 
             <div class="showcase-slide">
                 <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_02.jpg" alt="02" />
+                    <img src="<?php echo IMAGE_URL; ?>slider/psicoterapia-infantil-crop.jpg" alt="02" />
                 </div>
                 <div class="showcase-thumbnail">
                     <div class="showcase-thumbnail-content">
-                        <h3>Dental Center</h3>
-                        <p>Procedures, Surgery, Radiography </p>
+                        <h3>Psicoterapia Infantil</h3>
                     </div>
                 </div>
             </div>
             <div class="showcase-slide">
                 <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_03.jpg" alt="03" />
+                    <img src="<?php echo IMAGE_URL; ?>slider/coaching-crop.jpg" alt="03" />
                 </div>
                 <div class="showcase-thumbnail">
                     <div class="showcase-thumbnail-content">
-                        <h3>Cardiology</h3>
-                        <p>Cath Lab, EP Lab, Rehabilitation</p>
+                        <h3>Coaching</h3>
                     </div>
                 </div>
             </div>
             <div class="showcase-slide">
                 <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_06.jpg" alt="06" />
+                    <img src="<?php echo IMAGE_URL; ?>slider/orientacao-vocacional-crop.jpg" alt="06" />
                 </div>
                 <div class="showcase-thumbnail">
                     <div class="showcase-thumbnail-content">
-                        <h3>Diabetes</h3>
-                        <p>Medical Nutrition Therapy</p>
-                    </div>
-                </div>
-            </div>
-            <div class="showcase-slide">
-                <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_05.jpg" alt="05" />
-                </div>
-                <div class="showcase-thumbnail">
-                    <div class="showcase-thumbnail-content">
-                        <h3>Orthopedics</h3>
-                        <p>Joint, Spine and Back injuries</p>
-                    </div>
-                </div>
-            </div>
-            <div class="showcase-slide">
-                <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_04.jpg" alt="04" />
-                </div>
-                <div class="showcase-thumbnail">
-                    <div class="showcase-thumbnail-content">
-                        <h3>Physiotherapy</h3>
-                        <p>Hydrotherapy,Inpatient Services, Maternity Services</p>
-                    </div>
-                </div>
-            </div>
-            <div class="showcase-slide">
-                <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_07.jpg" alt="07" />
-                </div>
-                <div class="showcase-thumbnail">
-                    <div class="showcase-thumbnail-content">
-                        <h3>Cancer Support</h3>
-                        <p>diagnosis of cancer and cancer treatments</p>
-                    </div>
-                </div>
-            </div>
-            <div class="showcase-slide">
-                <div class="showcase-content">
-                    <img src="<?php echo IMAGE_URL; ?>temp/slider_img_02.jpg" alt="02" />
-                </div>
-                <div class="showcase-thumbnail">
-                    <div class="showcase-thumbnail-content">
-                        <h3>Wound Care</h3>
-                        <p>Extracorporeal membrane oxygen</p>
+                        <h3>Orientação Vocacional</h3>
                     </div>
                 </div>
             </div>
