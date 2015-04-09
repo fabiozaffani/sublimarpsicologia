@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', '/sublimarpsicologia/');
+define('BASE_URL', '/');
 define('IMAGE_URL', BASE_URL . 'images/');
 define('PHONE', '55 54 3039-0690');
 define('EMAIL', 'sublimar@sublimarpsicologia.com.br');
