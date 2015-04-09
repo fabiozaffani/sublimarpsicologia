@@ -1,3 +1,13 @@
+<?php
+
+    global $page;
+    $currentPage = 'class="menu-item-home parent current-menu-ancestor"';
+    $servicosPages = array(
+        'servicos.php', 'coaching.php', 'grupos.php', 'orientacao-vocacional.php',
+        'psicoterapia-infantil.php', 'psicoterapia.php', 'terapia-de-casal.php'
+    );
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -31,7 +41,7 @@
 
             <div class="header_top">
                 <div class="container">
-                    <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo IMAGE_URL; ?>logo.png" width="334" height="80" alt="Medica" /></a></div>
+                    <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo IMAGE_URL; ?>logo.png" width="334" height="108" alt="Medica" /></a></div>
                     <div class="header_contacts">
                         <p>Telefone:  <span class="icon_phone"><?php echo PHONE; ?></span></p>
                         <p>Rua Borges de Medeiros, 553, Centro, Caxias do Sul <a href="<?php echo BASE_URL; ?>paginas/localizacao.php" class="icon_map">Ver endereço</a></p>
@@ -43,14 +53,14 @@
                  <div class="container">
                     <div class="topmenu">
                         <ul class="dropdown">
-                            <li class="menu-item-home parent current-menu-ancestor"><a href="<?php echo BASE_URL; ?>"><span>Início</span></a>
+                            <li <?php if ($page == 'home') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>"><span>Início</span></a>
                                 <!-- <ul>
                                     <li class="current-menu-item"><a href="index.html"><span>Homepage Slider 1</span></a></li>
                                     <li><a href="index-slider-2.html"><span>Homepage Slider 2</span></a></li>
                                 </ul> -->
                             </li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/quemsomos.php"><span>Quem Somos</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/servicos.php"><span>Serviços</span></a>
+                            <li <?php if ($page == 'quemsomos.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/quemsomos.php"><span>Quem Somos</span></a></li>
+                            <li <?php if (in_array($page, $servicosPages)) echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/servicos.php"><span>Serviços</span></a>
                                 <ul>
                                     <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php"><span>Psicoterapia</span></a></li>
                                     <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia-infantil.php"><span>Psicoterapia Infantil</span></a></li>
@@ -74,10 +84,10 @@
                                     </li> -->
                                 </ul>
                             </li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/profissionais.php"><span>Profissionais</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php"><span>Agendamentos</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/localizacao.php"><span>Localização</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/parceiros.php"><span>Parceiros</span></a></li>
+                            <li <?php if ($page == 'profissionais.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/profissionais.php"><span>Profissionais</span></a></li>
+                            <li <?php if ($page == 'agendamentos.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php"><span>Agendamentos</span></a></li>
+                            <li <?php if ($page == 'localizacao.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/localizacao.php"><span>Localização</span></a></li>
+                            <li <?php if ($page == 'parceiros.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/parceiros.php"><span>Parceiros</span></a></li>
                         </ul>
                     </div>
               </div>

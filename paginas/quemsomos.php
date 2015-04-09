@@ -20,12 +20,10 @@ $profissionais = array(
         <div class="post-item">
         	<h1>Quem Somos</h1>
             <div class="entry">
-				<p>O Sublimar Espaço de Psicologia é um ambiente de atendimentos psicológico à crianças, adolescentes e adultos. Nosso principal objetivo é a busca do bem-estar, do autoconhecimento e da solução de conflitos.</p>
 
-				<p>Os atendimentos podem ser individuais (psicoterapia e/ou coaching), grupais (dinâmica de grupo, orientação vocacional, orientação profissional) ou familiares (casais e/ou atendimento das famílias). Oferecemos ainda consultoria organizacional, workshops, palestras e imersões. </p>
-
-				<p>O Espaço, idealizado pela psicóloga Giovana Grison (CRP 07/22774), é formado por uma equipe de diversos profissionais que utilizam as linhas teóricas da psicologia, conforme sua formação, para dar pleno acolhimento aos seus pacientes. Tem por finalidade a construção do saber, seja pelos atendimentos, como também por supervisões, grupos de estudos ou pesquisas nas áreas de interesses da Psicologia.</p>
-
+				<p>Nosso Espaço de Psicologia é um ambiente de atendimentos psicológicos à crianças, adolescentes e adultos. Nosso principal objetivo é a busca do bem estar, do autoconhecimento e da solução de conflitos.</p>
+				<p>Idealizado pela psicóloga Giovana Grison (CRP 07/22774), é formado por uma equipe de diversos profissionais que utilizam as linhas teóricas da psicologia, conforme sua formação, para dar pleno acolhimento aos seus pacientes. </p>
+				<p>Tem por finalidade a construção do saber, seja pelos atendimentos, como também por supervisões, grupos de estudos ou pesquisas nas áreas de interesses da Psicologia.</p>
               	<div class="row">
                 <div class="col col_1_2">
                 	<div class="list_dots_blue">

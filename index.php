@@ -1,11 +1,11 @@
 <?php
 
-define('BASE_URL', '/');
+define('BASE_URL', '/sublimarpsicologia/');
 define('IMAGE_URL', BASE_URL . 'images/');
 define('PHONE', '55 54 3039-0690');
 define('EMAIL', 'sublimar@sublimarpsicologia.com.br');
-
-require_once('includes/header.php');
+define('ADDRESS', 'Rua Borges de Medeiros, 553, Centro');
+define('CEP', 'Caxias do Sul - RS');
 
 if (isset($_GET['q'])) {
 	$str = explode('/', $_GET['q']);
@@ -13,6 +13,8 @@ if (isset($_GET['q'])) {
 } else {
 	$page = 'home';
 }
+
+require_once('includes/header.php');
 
 switch($page) {
 

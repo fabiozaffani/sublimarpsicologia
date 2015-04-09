@@ -8,56 +8,39 @@
             <div class="footer">
                 <div class="container_12">
 
-                    <div class="grid_2">
-                        <h3>Patient Care</h3>
+                    <div class="grid_4">
+                        <h3>Páginas</h3>
                         <ul>
-                            <li><a href="#">Request Appointment</a></li>
-                            <li><a href="#">Treatment &amp; Diagnosis</a></li>
-                            <li><a href="#">Plan Your Visit</a></li>
-                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>"><span>Início</span></a>
+                            <li><a href="<?php echo BASE_URL; ?>paginas/quemsomos.php"><span>Quem Somos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>paginas/profissionais.php"><span>Profissionais</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php"><span>Agendamentos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>paginas/localizacao.php"><span>Localização</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>paginas/parceiros.php"><span>Parceiros</span></a></li>
                         </ul>
                     </div>
 
-                    <div class="grid_2">
-                        <h3>Health Info</h3>
+                    <div class="grid_4">
+                        <h3>Serviços</h3>
                         <ul>
-                            <li><a href="#">Diseases &amp; Conditions</a></li>
-                            <li><a href="#">Symptom Checker</a></li>
-                            <li><a href="#">Drugs &amp; Supplements</a></li>
-                            <li><a href="#">Tests &amp; Procedures</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="grid_2">
-                        <h3>Research</h3>
-                        <ul>
-                            <li><a href="#">Explore Research Areas</a></li>
-                            <li><a href="#">Find Clinical Trials</a></li>
-                            <li><a href="#">Research Faculty</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="grid_2">
-                        <h3>Carriers</h3>
-                        <ul>
-                            <li><a href="#">Online Services for Ref...</a></li>
-                            <li><a href="#">Physicians</a></li>
-                            <li><a href="#">Grand Rounds</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php"><span>Psicoterapia</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia-infantil.php"><span>Psicoterapia Infantil</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/coaching.php"><span>Coaching</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/grupos.php"><span>Grupos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/terapia-de-casal.php"><span>Terapia de Casal</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>servicos/orientacao-vocacional.php"><span>Orientação Vocacional</span></a></li>
                         </ul>
                     </div>
 
                     <div class="grid_4">
                         <div class="text-center">
-                            <p><img src="<?php echo IMAGE_URL; ?>logo_footer.png" width="200" height="34" alt="" /></p>
+                            <p><img src="<?php echo IMAGE_URL; ?>logo.png" width="200" height="64" alt="" /></p>
                             <br />
-                            <p>1251-A Nowhere Boulevard<br /> City of OuttaSight, State 90378</p>
+                            <p><?php echo ADDRESS; ?><br /> <?php echo CEP; ?></p>
                         </div>
                     </div>
 
                     <div class="clear"></div>
-
-                    <div class="copyright">&copy; 2011 WordPress theme by <a href="http://themefuse.com">Themefuse.com</a></div>
-
                 </div>
             </div>
         </div>
