@@ -5,7 +5,7 @@
         <div class="col col_1_3">
 
             <div class="text-block-1">
-                <div class="title_icon"> <img src="<?php echo IMAGE_URL; ?>temp/col_icon_1.png" alt="" width="87" height="87" border="0"/>
+                <div class="title_icon"> <img src="<?php echo IMAGE_URL; ?>col_icon_2.png" alt="" width="87" height="87" border="0"/>
                     <h3>Agende uma Visita</h3>
                 </div>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloreue laudantium, <strong>totam rem aperiam</strong>, eaque ipsa quae ab illo Lorem ipsum dolor sit amet, consectetur  et quasi architecto:</p>
@@ -31,7 +31,7 @@
 
             <div class="text-block-1">
                 <div class="title_icon">
-                    <img src="<?php echo IMAGE_URL; ?>temp/col_icon_2.png" alt="" width="87" height="87" border="0"/>
+                    <img src="<?php echo IMAGE_URL; ?>col_icon_1.png" alt="" width="87" height="87" border="0"/>
                     <h3>Conheça nossos Serviços</h3>
                 </div>
                 <p>Conheça um pouco mais daquilo que o nosso Espaço oferece e veja se tem algo que se adequa aquilo que você procura.</p>
@@ -53,8 +53,8 @@
         <div class="col col_1_3">
             <div class="text-block-1">
                 <div class="title_icon">
-                    <img src="<?php echo IMAGE_URL; ?>temp/col_icon_3.png" alt="" width="87" height="87" border="0"/>
-                    <h3>Conheça a Equipe</h3>
+                    <img src="<?php echo IMAGE_URL; ?>col_icon_3.png" alt="" width="87" height="87" border="0"/>
+                    <h3>Conheça nossos Profissionais</h3>
                 </div>
                 <p>Aqui você poderá saber um pouco da formação profissional e das especializações de cada um dos nossos profissionais.</p>
                 <p><img src="<?php echo IMAGE_URL; ?>equipe.jpg" width="270" height="180" alt="" /></p>
@@ -72,8 +72,8 @@
             <div class="social_content">
                 <label>Nos encontre nas redes sociais:</label>
                 <!-- <a href="#"><img src="<?php echo IMAGE_URL; ?>icons/social_twitter_mid.png" alt="" /></a> -->
-                <a href="https://www.facebook.com/sublimarespacopsicologia" target="_blank"><img src="<?php echo IMAGE_URL; ?>icons/social_facebook_mid.png" alt="" /></a>
-                <!-- <a href="#"><img src="<?php echo IMAGE_URL; ?>icons/social_linkedin_mid.png" alt="" /></a> -->
+                <a href="https://www.facebook.com/sublimarespacopsicologia" target="_blank"><img src="<?php echo IMAGE_URL; ?>icons/social_facebook_mid.png" alt="Facebook" /></a>
+                <a href="https://instagram.com/sublimarpsicologia/" target="_blank"><img src="<?php echo IMAGE_URL; ?>icons/social_instagram_mid.png" alt="Instagram" /></a>
             </div>
         </div>
         <div class="col_1_3">

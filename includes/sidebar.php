@@ -5,7 +5,7 @@
     <div class="widget-container widget_social_contacts">
         <div class="social-box">
             <div class="row social-facebook"><span>Facebook.com/</span><a href="https://www.facebook.com/sublimarespacopsicologia" target="_blank">Sublimar</a></div>
-            <!-- <div class="row social-skype"><span>Skype ID: &nbsp;</span><a href="#">MedicaCenter</a></div> -->
+            <div class="row social-instagram"><span>Instagram: &nbsp;</span><a href="https://instagram.com/sublimarpsicologia/" target="_blank">Sublimar</a></div>
             <!-- <div class="row social-twitter"><span>Twitter.com/</span><a href="#">Medica</a></div> -->
             <!-- <div class="row social-linkedin"><span>LinkedIn.com/</span><a href="#">MedicaCare</a></div> -->
         </div>

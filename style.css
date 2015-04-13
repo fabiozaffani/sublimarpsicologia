@@ -2922,6 +2922,9 @@ h3.toggle.box {
 .social-flickr span {
 	background:url(images/icons/contact_social.png) 0 -64px no-repeat}
 
+.social-instagram span {
+	background:url(images/icons/contact_social.png) 0 -80px no-repeat}
+
 /* social in content */
 .social_content {
 	font-family:'CartoGothicStdBook', Arial, Helvetica, sans-serif;
