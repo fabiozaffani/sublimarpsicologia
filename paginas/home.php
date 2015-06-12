@@ -8,7 +8,7 @@
                 <div class="title_icon"> <img src="<?php echo IMAGE_URL; ?>col_icon_2.png" alt="" width="87" height="87" border="0"/>
                     <h3>Agende uma Visita</h3>
                 </div>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloreue laudantium, <strong>totam rem aperiam</strong>, eaque ipsa quae ab illo Lorem ipsum dolor sit amet, consectetur  et quasi architecto:</p>
+                <p>Nossos canais de comunicação estão abertos para que você possa conhecer o nosso Espaço, nossos profissionais e os nossos serviços. Contate-nos!</p>
                 <!-- widget contacts -->
                 <div class="widget-container widget_contact">
                     <div class="inner">

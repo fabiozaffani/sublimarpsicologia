@@ -7,24 +7,33 @@
 
 				<p>Seja também um parceiro do nosso espaço. Contate um de nossos profissionais e desenvolva parcerias.</p>
 
-				<div class="alignleft">
+				<div class="alignleft" style="width:190px;">
 					<h3 class="title_blue2">Sal a Gosto</h3>
 					<a href="http://www.salagosto.com.br" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/sal-a-gosto.jpg" alt="sal a gosto" /></a>
+					<p>Avenida Julio de Castilhos, 150 - Bairro Lourdes </p>
+					<p>Telefone: 54 34194831</p>
 				</div>
 
-				<div class="alignleft" style="margin-left: 20px; margin-right: 20px;">
+				<div class="alignleft" style="width:190px;margin-left: 20px; margin-right: 20px;">
 					<h3 class="title_blue2">Casanobre</h3>
 					<a href="http://www.casanobrenegociosimobiliarios.com.br" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/casa-nobre.jpg" alt="casanobre"/></a>
+					<p>Avenida Rosseti, 611, - Santa catarina</p>
+					<p>Telefone: 54 32188888</p>
 				</div>
 
-				<div class="alignleft">
+				<div class="alignleft" style="width:190px;">
 					<h3 class="title_blue2">Espaço Posturale</h3>
 					<a href="https://www.facebook.com/EspacoPosturale?ref=ts&fref=ts" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/espaco-posturale.jpg" alkt="espaco posturale" /></a>
+					<p>Rua Os 18 do Forte, 1407 - Centro</p>
+					<p>Telefone: 54 30272144</p>
+					<p>Site: <a href="http://www.espacoposturale.com.br/" target="_blank">Espaço Posturale</a></p>
 				</div>
 
-				<div class="alignleft">
+				<div class="alignleft" style="width:190px;">
 					<h3 class="title_blue2">DEM Informática</h3>
 					<a href="#" target="_blank"><img src="<?php echo IMAGE_URL;?>parceiros/dem-informatica.jpg" alkt="dem informatica" /></a>
+					<p>Rua Marcilio Dias, 18 - Exposição</p>
+					<p>Telefone: 54 30255925</p>
 				</div>
 
 				<div class="clear"></div>

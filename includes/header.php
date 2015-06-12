@@ -15,7 +15,7 @@
     <meta name="author" content="ThemeFuse" />
     <meta name="Description" content="A short description of your company" />
     <meta name="Keywords" content="Some keywords that best describe your business" />
-    <title>Medica - Homepage</title>
+    <title>Sublimar - Espaço de Psicologia</title>
     <link href="<?php echo BASE_URL; ?>style.css" media="screen" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="<?php echo BASE_URL; ?>js/jquery.min.js"></script>
