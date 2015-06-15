@@ -99,6 +99,14 @@
 			'especializacao' => 'MBA em Gestão Estratégica de Pessoas e Certificação Leader Coach  Extreme',
 			'area' => 'psicoterapia e avaliação psicológica com adultos.',
 			'experiencia' => 'Atua há quatro anos em atividades da Psicologia Organizacional e RH como pareceres, aconselhamento, avaliação psicológica, entre outros. Desde 2012 trabalha na área clínica com atendimentos psicoterápicos baseados na TCC.'
+		),
+		12 => array(
+			'name' => 'Cláudia Roberta Sossela',
+			'image' => IMAGE_URL . 'profissionais/claudia-roberta-sossela-medium.JPG',
+			'crp' => 'CRP/RS 07/24508',
+			'formacao' => 'Bacharel em Psicologia (2015) recebeu Láurea Acadêmica pela Universidade de Caxias do Sul por ter atingido a média global 3,8 no conjunto das unidades de disciplinas do currículo sobre nota máxima 4,0.',
+			'area' => 'Psicoterapia com crianças, adolescentes, adultos e idosos; psicoterapia de grupos..',
+			'experiencia' => 'Possui experiência na área de Psicologia Clínica e Hospitalar. Estagiou no Serviço de Psicologia Aplicada (UCS) onde realizou atendimentos psicoterápicos individuais e familiares (2013-2014). Estagiou no Hospital Geral de Caxias do Sul com a implantação de projetos direcionados aos pacientes e familiares e com a realização de grupos nos setores de Gestantes de Alto Risco, Oncologia Pediátrica, Psiquiatria Infanto-Juvenil, UTI Pediátrica e Neonatal (2012-2014).'
 		)
 	);
 
