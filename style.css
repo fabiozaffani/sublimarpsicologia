@@ -2710,6 +2710,10 @@ h3.toggle.box {
 	margin:0;
 	border-bottom:none}
 
+.sidebar .widget-container.widget_facebook{
+	margin: 0 !important;
+}
+
 .sidebar .widget-container.widget_pages h3 {
 	margin-left:35px}
 

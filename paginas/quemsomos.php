@@ -28,20 +28,20 @@ $profissionais = array(
                 <div class="col col_1_2">
                 	<div class="list_dots_blue">
                     	<ul>
-                        	<li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php">Psicoterapia</a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia-infantil.php">Psicoterapia Infantil</a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/coaching.php">Coaching</a></li>
+                        	<li><a href="<?php echo BASE_URL; ?>psicoterapia">Psicoterapia</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>psicoterapia-infantil">Psicoterapia Infantil</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>coaching">Coaching</a></li>
                         </ul>
                     </div>
-                  	<a href="<?php echo BASE_URL; ?>paginas/servicos.php" class="button_link"><span>Ver todos os serviços</span></a>
+                  	<a href="<?php echo BASE_URL; ?>listaservicos" class="button_link"><span>Ver todos os serviços</span></a>
                 </div>
 
                 <div class="col col_1_2">
                 	<div class="list_dots_blue">
                     	<ul>
-                        	<li><a href="<?php echo BASE_URL; ?>servicos/grupos.php">Grupos</a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/terapia-de-casal.php">Terapia de Casal</a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/orientacao-vocacional.php">Orientação Vocacional</a></li>
+                        	<li><a href="<?php echo BASE_URL; ?>grupos">Grupos</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>terapia-de-casal">Terapia de Casal</a></li>
+                            <li><a href="<?php echo BASE_URL; ?>orientacao-vocacional">Orientação Vocacional</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,11 +63,10 @@ $profissionais = array(
 
 				<?php endforeach; ?>
 
-                <a href="<?php echo BASE_URL;?>paginas/profissionais.php" class="button_link"><span>Conheça todos os nossos profissionais</span></a>
+                <a href="<?php echo BASE_URL;?>profissionais" class="button_link"><span>Conheça todos os nossos profissionais</span></a>
 
             	<?php require_once('includes/contato.php'); ?>
 
 			</div>
 		</div>
     </div>
-</div>

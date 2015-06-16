@@ -11,6 +11,13 @@
         </div>
     </div>
     <!--/ widget social contacts -->
+    <div class="widget-container widget_facebook">
+        <div class="fb-page" data-href="https://www.facebook.com/sublimarespacopsicologia" data-width="360" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+            <div class="fb-xfbml-parse-ignore">
+                <blockquote cite="https://www.facebook.com/sublimarespacopsicologia"><a href="https://www.facebook.com/sublimarespacopsicologia">Sublimar Espaço de Psicologia</a></blockquote>
+            </div>
+        </div>
+    </div>
 
     <!-- widget contacts -->
     <div class="widget-container widget_contact">
@@ -22,11 +29,11 @@
             </div>
             <div class="contact-mail">
                 <label>e-mail:</label>
-                <a hre0f="mailto:<?php echo EMAIL; ?>"><?php echo EMAIL; ?></a>
+                <a href="mailto:<?php echo EMAIL; ?>"><?php echo EMAIL; ?></a>
             </div>
             <div class="contact-address">
                 <label>endereço:</label>
-                <a href="<?php echo BASE_URL; ?>paginas/localizacao.php">nossa clínica</a>
+                <a href="<?php echo BASE_URL; ?>localizacao">nossa clínica</a>
             </div>
         </div>
     </div>

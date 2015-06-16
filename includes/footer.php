@@ -12,23 +12,23 @@
                         <h3>Páginas</h3>
                         <ul>
                             <li><a href="<?php echo BASE_URL; ?>"><span>Início</span></a>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/quemsomos.php"><span>Quem Somos</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/profissionais.php"><span>Profissionais</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php"><span>Agendamentos</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/localizacao.php"><span>Localização</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>paginas/parceiros.php"><span>Parceiros</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>quemsomos"><span>Quem Somos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>profissionais"><span>Profissionais</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>agendamentos"><span>Agendamentos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>localizacao"><span>Localização</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>parceiros"><span>Parceiros</span></a></li>
                         </ul>
                     </div>
 
                     <div class="grid_4">
                         <h3>Serviços</h3>
                         <ul>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php"><span>Psicoterapia</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia-infantil.php"><span>Psicoterapia Infantil</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/coaching.php"><span>Coaching</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/grupos.php"><span>Grupos</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/terapia-de-casal.php"><span>Terapia de Casal</span></a></li>
-                            <li><a href="<?php echo BASE_URL; ?>servicos/orientacao-vocacional.php"><span>Orientação Vocacional</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>psicoterapia"><span>Psicoterapia</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>psicoterapia-infantil"><span>Psicoterapia Infantil</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>coaching"><span>Coaching</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>grupos"><span>Grupos</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>terapia-de-casal"><span>Terapia de Casal</span></a></li>
+                            <li><a href="<?php echo BASE_URL; ?>orientacao-vocacional"><span>Orientação Vocacional</span></a></li>
                         </ul>
                     </div>
 

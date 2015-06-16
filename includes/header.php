@@ -3,8 +3,8 @@
     global $page;
     $currentPage = 'class="menu-item-home parent current-menu-ancestor"';
     $servicosPages = array(
-        'servicos.php', 'coaching.php', 'grupos.php', 'orientacao-vocacional.php',
-        'psicoterapia-infantil.php', 'psicoterapia.php', 'terapia-de-casal.php'
+        'listaservicos', 'coaching', 'grupos', 'orientacao-vocacional',
+        'psicoterapia-infantil', 'psicoterapia', 'terapia-de-casal'
     );
 
 ?>
@@ -34,7 +34,14 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <div class="body_wrap">
 
         <div class="header">
@@ -44,7 +51,7 @@
                     <div class="logo"><a href="<?php echo BASE_URL; ?>"><img src="<?php echo IMAGE_URL; ?>logo.png" width="334" height="108" alt="Medica" /></a></div>
                     <div class="header_contacts">
                         <p>Telefone:  <span class="icon_phone"><?php echo PHONE; ?></span></p>
-                        <p>Rua Borges de Medeiros, 553, Centro, Caxias do Sul <a href="<?php echo BASE_URL; ?>paginas/localizacao.php" class="icon_map">Ver endereço</a></p>
+                        <p>Rua Borges de Medeiros, 553, Centro, Caxias do Sul <a href="<?php echo BASE_URL; ?>/localizacao" class="icon_map">Ver endereço</a></p>
                     </div>
                 </div>
             </div>
@@ -59,15 +66,15 @@
                                     <li><a href="index-slider-2.html"><span>Homepage Slider 2</span></a></li>
                                 </ul> -->
                             </li>
-                            <li <?php if ($page == 'quemsomos.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/quemsomos.php"><span>Quem Somos</span></a></li>
-                            <li <?php if (in_array($page, $servicosPages)) echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/servicos.php"><span>Serviços</span></a>
+                            <li <?php if ($page == 'quemsomos') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>quemsomos"><span>Quem Somos</span></a></li>
+                            <li <?php if (in_array($page, $servicosPages)) echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>listaservicos"><span>Serviços</span></a>
                                 <ul>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia.php"><span>Psicoterapia</span></a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/psicoterapia-infantil.php"><span>Psicoterapia Infantil</span></a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/coaching.php"><span>Coaching</span></a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/grupos.php"><span>Grupos</span></a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/terapia-de-casal.php"><span>Terapia de Casal</span></a></li>
-                                    <li><a href="<?php echo BASE_URL; ?>servicos/orientacao-vocacional.php"><span>Orientação Vocacional</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>psicoterapia"><span>Psicoterapia</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>psicoterapia-infantil"><span>Psicoterapia Infantil</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>coaching"><span>Coaching</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>grupos"><span>Grupos</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>terapia-de-casal"><span>Terapia de Casal</span></a></li>
+                                    <li><a href="<?php echo BASE_URL; ?>orientacao-vocacional"><span>Orientação Vocacional</span></a></li>
                                     <!-- <li><a href="#"><span>Shortcodes</span></a>
                                         <ul>
                                             <li><a href="shortcodes-text.html"><span>Text &amp; Images</span></a></li>
@@ -84,10 +91,10 @@
                                     </li> -->
                                 </ul>
                             </li>
-                            <li <?php if ($page == 'profissionais.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/profissionais.php"><span>Profissionais</span></a></li>
-                            <li <?php if ($page == 'agendamentos.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/agendamentos.php"><span>Agendamentos</span></a></li>
-                            <li <?php if ($page == 'localizacao.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/localizacao.php"><span>Localização</span></a></li>
-                            <li <?php if ($page == 'parceiros.php') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>paginas/parceiros.php"><span>Parceiros</span></a></li>
+                            <li <?php if ($page == 'profissionais') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>profissionais"><span>Profissionais</span></a></li>
+                            <li <?php if ($page == 'agendamentos') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>agendamentos"><span>Agendamentos</span></a></li>
+                            <li <?php if ($page == 'localizacao') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>localizacao"><span>Localização</span></a></li>
+                            <li <?php if ($page == 'parceiros') echo $currentPage; ?>><a href="<?php echo BASE_URL; ?>parceiros"><span>Parceiros</span></a></li>
                         </ul>
                     </div>
               </div>
